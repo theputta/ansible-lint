@@ -22,6 +22,7 @@ if TYPE_CHECKING:
 
 class IgnoreFile(NamedTuple):
     """IgnoreFile n."""
+
     default: str
     alternative: str
 
