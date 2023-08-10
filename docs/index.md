@@ -15,6 +15,11 @@ As any other linter, it is opinionated. Still, its rules are the result of
 community contributions and they can always be disabled based individually or by
 category by each user.
 
+Examples of how Ansible Lint can be used:
+- Ansible Lint can be used to scan playbooks for syntax errors, undefined variables, and best practices violations.
+- It can also be used to improve the readability and maintainability of Ansible code.
+- Ansible Lint can help you to upgrade your Ansible code to work with newer versions of Ansible.
+
 [Ansible Galaxy project](https://github.com/ansible/galaxy/) makes use of this
 linter to compute quality scores for [Galaxy Hub](https://galaxy.ansible.com/)
 contributed content. This does not mean this tool only targets those that want
